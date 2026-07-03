@@ -12,7 +12,6 @@ This tool automatically calculates sums across multiple data reports with identi
 You must place your target Excel files into the `data` folder. Choose one of your reports to act as the base structure and rename it `master_template.xlsx`. All other files will be added to this template.
 
 ## Usage
-## Usage
 1. Place all your reports into the `data` folder.
 2. Run `python run.py`.
 3. The script will display a numbered list of all files found in the `data` folder. Enter the number of the file you want to use as your master template.
