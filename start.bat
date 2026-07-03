@@ -1,0 +1,3 @@
+@echo off
+echo Starting Clinical Report Consolidator...
+streamlit run app\app.py
