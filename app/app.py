@@ -4,9 +4,9 @@ import numpy as np
 import io
 from openpyxl.utils import column_index_from_string
 
-st.set_page_config(page_title="Clinical Report Consolidator", layout="wide")
-st.title("📊 Clinical Report Consolidator")
-st.write("Upload your monthly RARI clinical reports to consolidate them automatically.")
+st.set_page_config(page_title="Excel Report Consolidator", layout="wide")
+st.title("📊 Excel Report Consolidator")
+st.write("Upload your monthly similarly formatted reports to consolidate them automatically.")
 
 # 1. File Upload
 uploaded_files = st.file_uploader("Upload Excel reports", accept_multiple_files=True, type=['xlsx'])
